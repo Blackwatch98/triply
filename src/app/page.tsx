@@ -6,37 +6,11 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { Trip } from '@/types/trip'
+import { getTrips } from "@/lib/api";
 
-const trips: Trip[] = [
-  {
-    id: 1,
-    photoUrl: "https://picsum.photos/780/380?random=1",
-    title: "European Quest",
-    subtitle: "Lorem ipsum dolor sit amet",
-    countries: [
-      "Norway",
-      "Poland",
-      "Germany",
-    ],
-    days: 21,
-    co2kilograms: 4010.56,
-    rating: 4.7,
-    description: "Some descr.",
-    advantages: [
-      {
-        title: "1st advantage",
-        description: "Some advantage."
-      },
-      {
-        title: "2nd advantage",
-        description: "Some advantage."
-      },
-    ]
-  },
-];
+export default async function Home() {
+  const trips = await getTrips();
 
-export default function Home() {
   return (
     <main>
       <h1>Trips</h1>
