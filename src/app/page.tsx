@@ -2,6 +2,7 @@ import { getTrips } from "@/lib/api";
 import TripsTable from "@/components/trips/trips-table";
 import TripsHeader from "@/components/trips/trips-header";
 import TripsToolbar from "@/components/trips/trips-toolbar";
+import TripsCardGrid from "@/components/trips/trips-card-grid";
 
 export default async function Home() {
   const trips = await getTrips();
@@ -13,7 +14,10 @@ export default async function Home() {
 
         <TripsToolbar />
 
-        <TripsTable trips={trips} />
+        {
+          //<TripsTable trips={trips} />
+          <TripsCardGrid trips={trips} />
+        }
       </section>
     </main>
   );
