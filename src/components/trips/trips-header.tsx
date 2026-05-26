@@ -1,4 +1,14 @@
-export default function TripsHeader() {
+import { TripsViewMode } from "@/types/trips-view-mode";
+
+type TripsHeaderProps = {
+  viewMode: TripsViewMode;
+  onViewModeChange: (viewMode: TripsViewMode) => void;
+};
+
+export default function TripsHeader({
+  viewMode,
+  onViewModeChange,
+}: TripsHeaderProps) {
   return (
     <header className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
       <div>
@@ -13,13 +23,26 @@ export default function TripsHeader() {
       </div>
 
       <div className="bg-card grid w-full grid-cols-2 rounded-3xl border p-1 shadow-sm sm:w-fit">
-        <button className="bg-primary text-primary-foreground flex w-full items-center justify-center rounded-2xl px-4 py-2.5 text-sm font-semibold shadow-sm transition-colors sm:min-w-24">
+        <button
+          type="button"
+          onClick={() => onViewModeChange("table")}
+          className={`flex w-full items-center justify-center rounded-2xl px-4 py-2.5 text-sm font-semibold transition-colors sm:min-w-24 ${
+            viewMode === "table"
+              ? "bg-primary text-primary-foreground shadow-sm"
+              : "text-muted-foreground hover:bg-muted hover:text-foreground"
+          }`}
+        >
           Table
         </button>
 
         <button
-          className="text-muted-foreground hover:bg-muted hover:text-foreground flex w-full items-center justify-center rounded-2xl px-4 py-2.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-70 sm:min-w-24"
-          disabled
+          type="button"
+          onClick={() => onViewModeChange("cards")}
+          className={`flex w-full items-center justify-center rounded-2xl px-4 py-2.5 text-sm font-semibold transition-colors sm:min-w-24 ${
+            viewMode === "cards"
+              ? "bg-primary text-primary-foreground shadow-sm"
+              : "text-muted-foreground hover:bg-muted hover:text-foreground"
+          }`}
         >
           Cards
         </button>
