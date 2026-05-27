@@ -60,26 +60,37 @@ export default function TripsCardGrid({ trips }: TripsCardGridProps) {
         {visibleTrips.map((trip) => (
           <Card
             key={trip.id}
-            className="flex aspect-square items-center justify-center bg-cover bg-center text-center text-white"
+            className="relative flex aspect-square items-center justify-center overflow-hidden rounded-2xl bg-cover bg-center text-white"
             style={{
               backgroundImage: `url(${trip.photoUrl})`,
             }}
           >
-            <div>
-              <CardHeader>
-                <CardTitle className="line-clamp-2 text-xl">
+            <div className="absolute inset-0 bg-black/45" />
+
+            <div className="relative z-10 flex h-full w-full flex-col items-center justify-center p-6 text-center">
+              <CardHeader className="w-full max-w-65 p-0 text-center">
+                <CardTitle className="line-clamp-2 text-2xl leading-tight font-semibold drop-shadow-sm">
                   {trip.title}
                 </CardTitle>
 
-                <CardDescription className="text-white">
+                <CardDescription className="mt-2 text-sm font-medium text-white/90">
                   {trip.countries.length} countries, {trip.days} days
                 </CardDescription>
               </CardHeader>
 
-              <CardContent>
-                <button>Learn more</button>
-                <p>Emissions offset: {trip.co2kilograms} kg CO₂e</p>
-                <p>Trip rating: {trip.rating}</p>
+              <CardContent className="mt-4 flex w-full flex-col items-center gap-3 p-0">
+                <button className="bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer rounded-md px-4 py-2 text-sm font-medium shadow-sm transition-colors">
+                  Learn more
+                </button>
+
+                <div className="w-full rounded-lg bg-black/55 px-4 py-2 text-sm font-medium shadow-sm backdrop-blur-sm">
+                  Emissions offset: {trip.co2kilograms} kg CO₂e
+                </div>
+
+                <div className="text-foreground flex w-full items-center justify-between rounded-lg bg-white px-4 py-2 text-sm font-medium shadow-sm">
+                  <span>Trip rating</span>
+                  <span>{trip.rating}</span>
+                </div>
               </CardContent>
             </div>
           </Card>
