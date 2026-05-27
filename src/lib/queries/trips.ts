@@ -8,7 +8,7 @@ export const tripsQueryOptions = queryOptions({
   staleTime: 1000 * 60 * 5,
 });
 
-export const tripQueryOptions = (id: string) =>
+export const tripQueryOptions = (id: number) =>
   queryOptions({
     queryKey: queryKeys.trip(id),
     queryFn: () => getTripById(id),

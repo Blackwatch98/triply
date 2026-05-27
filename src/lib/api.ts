@@ -24,6 +24,6 @@ export function getTrips(): Promise<Trip[]> {
   return apiFetch<Trip[]>("/trips");
 }
 
-export function getTripById(id: string): Promise<Trip> {
+export function getTripById(id: number): Promise<Trip> {
   return apiFetch<Trip>(`/trips/${id}`);
 }
