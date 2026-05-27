@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Flag, Earth, Folder, Users, type LucideIcon } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import { tripQueryOptions } from "@/lib/queries/trips";
+import Image from "next/image";
 
 type TripPageClientProps = {
   tripId: string;
@@ -58,7 +59,7 @@ export default function TripPageClient({ tripId }: TripPageClientProps) {
 
         <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
           <div>
-            <img
+            <Image
               src={trip.photoUrl}
               alt={trip.title}
               className="aspect-video w-full rounded-2xl object-cover shadow-sm"

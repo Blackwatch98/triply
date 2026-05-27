@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/card";
 import { Star } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 
 type TripsCardGridProps = {
   trips: Trip[];
@@ -24,11 +24,11 @@ export default function TripsCardGrid({ trips }: TripsCardGridProps) {
   const visibleTrips = trips.slice(0, visibleCount);
   const loaderRef = useRef<HTMLDivElement | null>(null);
 
-  function loadMoreTrips() {
+  const loadMoreTrips = useCallback(() => {
     setVisibleCount((currentCount) =>
       Math.min(currentCount + ITEMS_PER_PAGE, trips.length)
     );
-  }
+  }, [trips.length]);
 
   useEffect(() => {
     const loader = loaderRef.current;
@@ -55,7 +55,7 @@ export default function TripsCardGrid({ trips }: TripsCardGridProps) {
     return () => {
       observer.disconnect();
     };
-  }, [visibleCount, trips.length]);
+  }, [loadMoreTrips]);
 
   return (
     <>
