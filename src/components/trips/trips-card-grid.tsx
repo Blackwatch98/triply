@@ -96,7 +96,7 @@ export default function TripsCardGrid({ trips }: TripsCardGridProps) {
               </div>
             </div>
 
-            <div className="relative z-20 mx-6 -mt-15 mb-2 flex items-center justify-between rounded-t-xl bg-white px-4 py-3 text-sm font-semibold text-foreground">
+            <div className="relative z-20 mx-6 -mt-15 flex items-center justify-between rounded-t-xl bg-white px-4 py-3 text-sm font-semibold text-foreground">
               <span>Trip rating</span>
 
               <span className="flex items-center gap-1">

@@ -1,4 +1,4 @@
-import { TripAdvantage } from "./tripAdvantage";
+import { TripAdvantage } from "./trip-advantage";
 
 export interface Trip {
     id: number,
