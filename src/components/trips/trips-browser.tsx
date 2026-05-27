@@ -93,24 +93,22 @@ export default function TripsBrowser() {
   })();
 
   return (
-    <main className="bg-background text-foreground min-h-screen px-4 py-8 sm:px-6 lg:px-8">
-      <section className="mx-auto flex max-w-6xl flex-col gap-6">
-        <TripsHeader viewMode={viewMode} onViewModeChange={setViewMode} />
+    <section className="mx-auto flex max-w-6xl flex-col gap-6">
+      <TripsHeader viewMode={viewMode} onViewModeChange={setViewMode} />
 
-        <TripsToolbar
-          searchQuery={searchQuery}
-          onSearchQueryChange={setSearchQuery}
-          countryFilter={countryFilter}
-          onCountryFilterChange={setCountryFilter}
-          countries={countries}
-          sortBy={sortBy}
-          onSortByChange={setSortBy}
-          sortOrderDirection={sortOrder}
-          onSortOrderChange={setSortOrder}
-        />
+      <TripsToolbar
+        searchQuery={searchQuery}
+        onSearchQueryChange={setSearchQuery}
+        countryFilter={countryFilter}
+        onCountryFilterChange={setCountryFilter}
+        countries={countries}
+        sortBy={sortBy}
+        onSortByChange={setSortBy}
+        sortOrderDirection={sortOrder}
+        onSortOrderChange={setSortOrder}
+      />
 
-        {content}
-      </section>
-    </main>
+      {content}
+    </section>
   );
 }
