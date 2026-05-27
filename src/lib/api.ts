@@ -1,23 +1,27 @@
 import type { Trip } from "@/types/trip";
 
-const API_URL = "http://localhost:3001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:3001";
 
-export async function getTrips(): Promise<Trip[]> {
-    const response = await fetch(`${API_URL}/trips`)
-
-    if(!response.ok) {
-        throw new Error("Failed to fetch trips");
-    }
-
-    return response.json();
-}
-
-export async function getTripById(id: string): Promise<Trip> {
-  const response = await fetch(`${API_URL}/trips/${id}`);
+async function apiFetch<T>(path: string, options?: RequestInit): Promise<T> {
+  const response = await fetch(`${API_URL}${path}`, {
+    ...options,
+    headers: {
+      "Content-Type": "application/json",
+      ...options?.headers,
+    },
+  });
 
   if (!response.ok) {
-    throw new Error("Failed to fetch trip");
+    throw new Error(`API request failed: ${response.status} ${response.statusText}`);
   }
 
-  return response.json();
+  return response.json() as Promise<T>;
+}
+
+export function getTrips(): Promise<Trip[]> {
+  return apiFetch<Trip[]>("/trips");
+}
+
+export function getTripById(id: string): Promise<Trip> {
+  return apiFetch<Trip>(`/trips/${id}`);
 }
