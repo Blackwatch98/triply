@@ -34,6 +34,8 @@ export default function TripsTable({ trips }: TripsTableProps) {
               <TableHead className="text-muted-foreground h-11 pr-5 text-right text-xs font-semibold tracking-wide uppercase">
                 Rating
               </TableHead>
+
+              <TableHead className="text-muted-foreground h-11 pr-5 text-right text-xs font-semibold tracking-wide uppercase" />
             </TableRow>
           </TableHeader>
 
@@ -68,6 +70,12 @@ export default function TripsTable({ trips }: TripsTableProps) {
 
                 <TableCell className="py-4 pr-5 text-right text-sm font-medium">
                   {trip.rating}
+                </TableCell>
+
+                <TableCell className="py-4 pr-5 text-right text-sm font-medium">
+                  <button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-5 py-2.5 text-xs font-semibold shadow-sm transition-colors">
+                    Learn more
+                  </button>
                 </TableCell>
               </TableRow>
             ))}

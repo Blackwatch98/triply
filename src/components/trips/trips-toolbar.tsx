@@ -48,7 +48,7 @@ export default function TripsToolbar({
             htmlFor="country"
             className="text-muted-foreground mb-1.5 block text-xs font-medium"
           >
-            Filter
+            Country filter
           </label>
           <select
             id="country"
