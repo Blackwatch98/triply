@@ -43,11 +43,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=2",
       "title": "Autumn Roadtrip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Norway",
-        "Finland",
-        "Sweden"
-      ],
+      "countries": ["Norway", "Finland", "Sweden"],
       "days": 7,
       "co2kilograms": 1560.5,
       "rating": 3.5,
@@ -76,9 +72,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=3",
       "title": "Diving adventure in Egypt",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Egypt"
-      ],
+      "countries": ["Egypt"],
       "days": 7,
       "co2kilograms": 810,
       "rating": 3.5,
@@ -107,13 +101,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=4",
       "title": "Backpacking through Europe",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Poland",
-        "Czechia",
-        "Austria",
-        "Slovenia",
-        "Croatia"
-      ],
+      "countries": ["Poland", "Czechia", "Austria", "Slovenia", "Croatia"],
       "days": 30,
       "co2kilograms": 710.6843,
       "rating": 4,
@@ -142,9 +130,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=5",
       "title": "American Dream",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "United States"
-      ],
+      "countries": ["United States"],
       "days": 60,
       "co2kilograms": 3510.6843,
       "rating": 2.7,
@@ -173,9 +159,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=6",
       "title": "Spontaneous Rome visit",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Italy"
-      ],
+      "countries": ["Italy"],
       "days": 1,
       "co2kilograms": 330,
       "rating": 4.4,
@@ -204,13 +188,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=7",
       "title": "Adventurous Asia trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "South Korea",
-        "Thailand",
-        "Malysia",
-        "Japan",
-        "China"
-      ],
+      "countries": ["South Korea", "Thailand", "Malysia", "Japan", "China"],
       "days": 28,
       "co2kilograms": 5782.56737,
       "rating": 4.6,
@@ -239,9 +217,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=8",
       "title": "Australia in December",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Australia"
-      ],
+      "countries": ["Australia"],
       "days": 9,
       "co2kilograms": 1463,
       "rating": 3.5,
@@ -270,12 +246,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=9",
       "title": "South America trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Brazil",
-        "Colombia",
-        "Peru",
-        "Argentina"
-      ],
+      "countries": ["Brazil", "Colombia", "Peru", "Argentina"],
       "days": 16,
       "co2kilograms": 2584.5737,
       "rating": 3,
@@ -304,9 +275,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=10",
       "title": "Safari tour",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Kenya"
-      ],
+      "countries": ["Kenya"],
       "days": 3,
       "co2kilograms": 904,
       "rating": 3,
@@ -335,11 +304,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=11",
       "title": "Chillout in Africa",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Egypt",
-        "Libya",
-        "Tunisia"
-      ],
+      "countries": ["Egypt", "Libya", "Tunisia"],
       "days": 3,
       "co2kilograms": 1064.436,
       "rating": 4.1,
@@ -368,9 +333,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=12",
       "title": "Beautiful Iceland roadtrip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Iceland"
-      ],
+      "countries": ["Iceland"],
       "days": 14,
       "co2kilograms": 2465.168,
       "rating": 4.9,
@@ -399,9 +362,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=13",
       "title": "Weekend in Paris",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "France"
-      ],
+      "countries": ["France"],
       "days": 2,
       "co2kilograms": 665,
       "rating": 4,
@@ -430,11 +391,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=14",
       "title": "South Asia trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "India",
-        "Nepal",
-        "Sri Lanka"
-      ],
+      "countries": ["India", "Nepal", "Sri Lanka"],
       "days": 9,
       "co2kilograms": 2265,
       "rating": 3.6,
@@ -463,10 +420,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=15",
       "title": "Islands visit",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "United Kingdom",
-        "Ireland"
-      ],
+      "countries": ["United Kingdom", "Ireland"],
       "days": 7,
       "co2kilograms": 1737,
       "rating": 2.3,
@@ -533,11 +487,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=17",
       "title": "Autumn Roadtrip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Norway",
-        "Finland",
-        "Sweden"
-      ],
+      "countries": ["Norway", "Finland", "Sweden"],
       "days": 7,
       "co2kilograms": 1560.5,
       "rating": 3.5,
@@ -566,9 +516,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=18",
       "title": "Diving adventure in Egypt",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Egypt"
-      ],
+      "countries": ["Egypt"],
       "days": 7,
       "co2kilograms": 810,
       "rating": 3.5,
@@ -597,13 +545,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=19",
       "title": "Backpacking through Europe",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Poland",
-        "Czechia",
-        "Austria",
-        "Slovenia",
-        "Croatia"
-      ],
+      "countries": ["Poland", "Czechia", "Austria", "Slovenia", "Croatia"],
       "days": 30,
       "co2kilograms": 710.6843,
       "rating": 4,
@@ -632,9 +574,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=20",
       "title": "American Dream",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "United States"
-      ],
+      "countries": ["United States"],
       "days": 60,
       "co2kilograms": 3510.6843,
       "rating": 2.7,
@@ -663,9 +603,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=21",
       "title": "Spontaneous Rome visit",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Italy"
-      ],
+      "countries": ["Italy"],
       "days": 1,
       "co2kilograms": 330,
       "rating": 4.4,
@@ -694,13 +632,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=22",
       "title": "Adventurous Asia trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "South Korea",
-        "Thailand",
-        "Malysia",
-        "Japan",
-        "China"
-      ],
+      "countries": ["South Korea", "Thailand", "Malysia", "Japan", "China"],
       "days": 28,
       "co2kilograms": 5782.56737,
       "rating": 4.6,
@@ -729,9 +661,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=23",
       "title": "Australia in December",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Australia"
-      ],
+      "countries": ["Australia"],
       "days": 9,
       "co2kilograms": 1463,
       "rating": 3.5,
@@ -760,12 +690,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=24",
       "title": "South America trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Brazil",
-        "Colombia",
-        "Peru",
-        "Argentina"
-      ],
+      "countries": ["Brazil", "Colombia", "Peru", "Argentina"],
       "days": 16,
       "co2kilograms": 2584.5737,
       "rating": 3,
@@ -794,9 +719,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=25",
       "title": "Safari tour",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Kenya"
-      ],
+      "countries": ["Kenya"],
       "days": 3,
       "co2kilograms": 904,
       "rating": 3,
@@ -825,11 +748,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=26",
       "title": "Chillout in Africa",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Egypt",
-        "Libya",
-        "Tunisia"
-      ],
+      "countries": ["Egypt", "Libya", "Tunisia"],
       "days": 3,
       "co2kilograms": 1064.436,
       "rating": 4.1,
@@ -858,9 +777,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=27",
       "title": "Beautiful Iceland roadtrip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Iceland"
-      ],
+      "countries": ["Iceland"],
       "days": 14,
       "co2kilograms": 2465.168,
       "rating": 4.9,
@@ -889,9 +806,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=28",
       "title": "Weekend in Paris",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "France"
-      ],
+      "countries": ["France"],
       "days": 2,
       "co2kilograms": 665,
       "rating": 4,
@@ -920,10 +835,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=29",
       "title": "Islands visit",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "United Kingdom",
-        "Ireland"
-      ],
+      "countries": ["United Kingdom", "Ireland"],
       "days": 7,
       "co2kilograms": 1737,
       "rating": 3.6,
@@ -952,11 +864,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=30",
       "title": "South Asia trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "India",
-        "Nepal",
-        "Sri Lanka"
-      ],
+      "countries": ["India", "Nepal", "Sri Lanka"],
       "days": 9,
       "co2kilograms": 2265,
       "rating": 3.6,
@@ -1023,11 +931,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=32",
       "title": "Autumn Roadtrip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Norway",
-        "Finland",
-        "Sweden"
-      ],
+      "countries": ["Norway", "Finland", "Sweden"],
       "days": 7,
       "co2kilograms": 1560.5,
       "rating": 3.5,
@@ -1056,9 +960,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=33",
       "title": "Diving adventure in Egypt",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Egypt"
-      ],
+      "countries": ["Egypt"],
       "days": 7,
       "co2kilograms": 810,
       "rating": 3.5,
@@ -1087,13 +989,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=34",
       "title": "Backpacking through Europe",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Poland",
-        "Czechia",
-        "Austria",
-        "Slovenia",
-        "Croatia"
-      ],
+      "countries": ["Poland", "Czechia", "Austria", "Slovenia", "Croatia"],
       "days": 30,
       "co2kilograms": 710.6843,
       "rating": 4,
@@ -1122,9 +1018,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=35",
       "title": "American Dream",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "United States"
-      ],
+      "countries": ["United States"],
       "days": 60,
       "co2kilograms": 3510.6843,
       "rating": 2.7,
@@ -1153,9 +1047,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=36",
       "title": "Spontaneous Rome visit",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Italy"
-      ],
+      "countries": ["Italy"],
       "days": 1,
       "co2kilograms": 330,
       "rating": 4.4,
@@ -1184,13 +1076,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=37",
       "title": "Adventurous Asia trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "South Korea",
-        "Thailand",
-        "Malysia",
-        "Japan",
-        "China"
-      ],
+      "countries": ["South Korea", "Thailand", "Malysia", "Japan", "China"],
       "days": 28,
       "co2kilograms": 5782.56737,
       "rating": 4.6,
@@ -1219,9 +1105,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=38",
       "title": "Australia in December",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Australia"
-      ],
+      "countries": ["Australia"],
       "days": 9,
       "co2kilograms": 1463,
       "rating": 3.5,
@@ -1250,12 +1134,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=39",
       "title": "South America trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Brazil",
-        "Colombia",
-        "Peru",
-        "Argentina"
-      ],
+      "countries": ["Brazil", "Colombia", "Peru", "Argentina"],
       "days": 16,
       "co2kilograms": 2584.5737,
       "rating": 3,
@@ -1284,9 +1163,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=40",
       "title": "Safari tour",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Kenya"
-      ],
+      "countries": ["Kenya"],
       "days": 3,
       "co2kilograms": 904,
       "rating": 3,
@@ -1315,11 +1192,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=41",
       "title": "Chillout in Africa",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Egypt",
-        "Libya",
-        "Tunisia"
-      ],
+      "countries": ["Egypt", "Libya", "Tunisia"],
       "days": 3,
       "co2kilograms": 1064.436,
       "rating": 4.1,
@@ -1348,9 +1221,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=42",
       "title": "Beautiful Iceland roadtrip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Iceland"
-      ],
+      "countries": ["Iceland"],
       "days": 14,
       "co2kilograms": 2465.168,
       "rating": 4.9,
@@ -1379,9 +1250,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=43",
       "title": "Weekend in Paris",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "France"
-      ],
+      "countries": ["France"],
       "days": 2,
       "co2kilograms": 665,
       "rating": 4,
@@ -1410,11 +1279,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=44",
       "title": "South Asia trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "India",
-        "Nepal",
-        "Sri Lanka"
-      ],
+      "countries": ["India", "Nepal", "Sri Lanka"],
       "days": 9,
       "co2kilograms": 2265,
       "rating": 3.6,
@@ -1443,10 +1308,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=45",
       "title": "Islands visit",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "United Kingdom",
-        "Ireland"
-      ],
+      "countries": ["United Kingdom", "Ireland"],
       "days": 7,
       "co2kilograms": 1737,
       "rating": 2.3,
@@ -1513,11 +1375,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=47",
       "title": "Autumn Roadtrip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Norway",
-        "Finland",
-        "Sweden"
-      ],
+      "countries": ["Norway", "Finland", "Sweden"],
       "days": 7,
       "co2kilograms": 1560.5,
       "rating": 3.5,
@@ -1546,9 +1404,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=48",
       "title": "Diving adventure in Egypt",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Egypt"
-      ],
+      "countries": ["Egypt"],
       "days": 7,
       "co2kilograms": 810,
       "rating": 3.5,
@@ -1577,13 +1433,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=49",
       "title": "Backpacking through Europe",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Poland",
-        "Czechia",
-        "Austria",
-        "Slovenia",
-        "Croatia"
-      ],
+      "countries": ["Poland", "Czechia", "Austria", "Slovenia", "Croatia"],
       "days": 30,
       "co2kilograms": 710.6843,
       "rating": 4,
@@ -1612,9 +1462,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=50",
       "title": "American Dream",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "United States"
-      ],
+      "countries": ["United States"],
       "days": 60,
       "co2kilograms": 3510.6843,
       "rating": 2.7,
@@ -1643,9 +1491,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=51",
       "title": "Spontaneous Rome visit",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Italy"
-      ],
+      "countries": ["Italy"],
       "days": 1,
       "co2kilograms": 330,
       "rating": 4.4,
@@ -1674,13 +1520,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=52",
       "title": "Adventurous Asia trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "South Korea",
-        "Thailand",
-        "Malysia",
-        "Japan",
-        "China"
-      ],
+      "countries": ["South Korea", "Thailand", "Malysia", "Japan", "China"],
       "days": 28,
       "co2kilograms": 5782.56737,
       "rating": 4.6,
@@ -1709,9 +1549,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=53",
       "title": "Australia in December",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Australia"
-      ],
+      "countries": ["Australia"],
       "days": 9,
       "co2kilograms": 1463,
       "rating": 3.5,
@@ -1740,12 +1578,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=54",
       "title": "South America trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Brazil",
-        "Colombia",
-        "Peru",
-        "Argentina"
-      ],
+      "countries": ["Brazil", "Colombia", "Peru", "Argentina"],
       "days": 16,
       "co2kilograms": 2584.5737,
       "rating": 3,
@@ -1774,9 +1607,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=55",
       "title": "Safari tour",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Kenya"
-      ],
+      "countries": ["Kenya"],
       "days": 3,
       "co2kilograms": 904,
       "rating": 3,
@@ -1805,11 +1636,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=56",
       "title": "Chillout in Africa",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Egypt",
-        "Libya",
-        "Tunisia"
-      ],
+      "countries": ["Egypt", "Libya", "Tunisia"],
       "days": 3,
       "co2kilograms": 1064.436,
       "rating": 4.1,
@@ -1838,9 +1665,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=57",
       "title": "Beautiful Iceland roadtrip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Iceland"
-      ],
+      "countries": ["Iceland"],
       "days": 14,
       "co2kilograms": 2465.168,
       "rating": 4.9,
@@ -1869,9 +1694,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=58",
       "title": "Weekend in Paris",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "France"
-      ],
+      "countries": ["France"],
       "days": 2,
       "co2kilograms": 665,
       "rating": 4,
@@ -1900,10 +1723,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=59",
       "title": "Islands visit",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "United Kingdom",
-        "Ireland"
-      ],
+      "countries": ["United Kingdom", "Ireland"],
       "days": 7,
       "co2kilograms": 1737,
       "rating": 3.6,
@@ -1932,11 +1752,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=60",
       "title": "South Asia trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "India",
-        "Nepal",
-        "Sri Lanka"
-      ],
+      "countries": ["India", "Nepal", "Sri Lanka"],
       "days": 9,
       "co2kilograms": 2265,
       "rating": 3.6,
@@ -2003,11 +1819,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=62",
       "title": "Autumn Roadtrip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Norway",
-        "Finland",
-        "Sweden"
-      ],
+      "countries": ["Norway", "Finland", "Sweden"],
       "days": 7,
       "co2kilograms": 1560.5,
       "rating": 3.5,
@@ -2036,9 +1848,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=63",
       "title": "Diving adventure in Egypt",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Egypt"
-      ],
+      "countries": ["Egypt"],
       "days": 7,
       "co2kilograms": 810,
       "rating": 3.5,
@@ -2067,13 +1877,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=64",
       "title": "Backpacking through Europe",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Poland",
-        "Czechia",
-        "Austria",
-        "Slovenia",
-        "Croatia"
-      ],
+      "countries": ["Poland", "Czechia", "Austria", "Slovenia", "Croatia"],
       "days": 30,
       "co2kilograms": 710.6843,
       "rating": 4,
@@ -2102,9 +1906,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=65",
       "title": "American Dream",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "United States"
-      ],
+      "countries": ["United States"],
       "days": 60,
       "co2kilograms": 3510.6843,
       "rating": 2.7,
@@ -2133,9 +1935,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=66",
       "title": "Spontaneous Rome visit",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Italy"
-      ],
+      "countries": ["Italy"],
       "days": 1,
       "co2kilograms": 330,
       "rating": 4.4,
@@ -2164,13 +1964,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=67",
       "title": "Adventurous Asia trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "South Korea",
-        "Thailand",
-        "Malysia",
-        "Japan",
-        "China"
-      ],
+      "countries": ["South Korea", "Thailand", "Malysia", "Japan", "China"],
       "days": 28,
       "co2kilograms": 5782.56737,
       "rating": 4.6,
@@ -2199,9 +1993,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=68",
       "title": "Australia in December",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Australia"
-      ],
+      "countries": ["Australia"],
       "days": 9,
       "co2kilograms": 1463,
       "rating": 3.5,
@@ -2230,12 +2022,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=69",
       "title": "South America trip",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Brazil",
-        "Colombia",
-        "Peru",
-        "Argentina"
-      ],
+      "countries": ["Brazil", "Colombia", "Peru", "Argentina"],
       "days": 16,
       "co2kilograms": 2584.5737,
       "rating": 3,
@@ -2264,9 +2051,7 @@
       "photoUrl": "https://picsum.photos/780/380?random=70",
       "title": "Safari tour",
       "subtitle": "Lorem ipsum dolor sit amet",
-      "countries": [
-        "Kenya"
-      ],
+      "countries": ["Kenya"],
       "days": 3,
       "co2kilograms": 904,
       "rating": 3,
