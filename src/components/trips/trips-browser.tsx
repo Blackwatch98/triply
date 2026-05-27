@@ -6,9 +6,11 @@ import TripsToolbar from "@/components/trips/trips-toolbar";
 import TripsCardGrid from "@/components/trips/trips-card-grid";
 import { TripsViewMode } from "@/types/trips-view-mode";
 import { TripsSortBy, TripsSortOrder } from "@/types/trip-sort-by";
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { tripsQueryOptions } from "@/lib/queries/trips";
+import { useTripCountries } from "@/components/trips/hooks/use-trip-countries";
+import { useVisibleTrips } from "@/components/trips/hooks/use-visible-trips";
 
 export default function TripsBrowser() {
   const [viewMode, setViewMode] = useState<TripsViewMode>("table");
@@ -19,44 +21,15 @@ export default function TripsBrowser() {
 
   const { data: trips = [], isLoading, isError } = useQuery(tripsQueryOptions);
 
-  const countries = useMemo(() => {
-    return Array.from(new Set(trips.flatMap((trip) => trip.countries))).sort();
-  }, [trips]);
+  const countries = useTripCountries(trips);
 
-  const visibleTrips = useMemo(() => {
-    const query = searchQuery.trim().toLowerCase();
-
-    const filteredTrips = trips.filter((trip) => {
-      const matchesSearch = trip.title.toLowerCase().includes(query);
-
-      const matchesCountry =
-        countryFilter === "all" || trip.countries.includes(countryFilter);
-
-      return matchesSearch && matchesCountry;
-    });
-
-    if (sortBy === "default") {
-      return filteredTrips;
-    }
-
-    return [...filteredTrips].sort((a, b) => {
-      const direction = sortOrder === "asc" ? 1 : -1;
-
-      if (sortBy === "rating") {
-        return (a.rating - b.rating) * direction;
-      }
-
-      if (sortBy === "days") {
-        return (a.days - b.days) * direction;
-      }
-
-      if (sortBy === "co2") {
-        return (a.co2kilograms - b.co2kilograms) * direction;
-      }
-
-      return 0;
-    });
-  }, [trips, searchQuery, countryFilter, sortBy, sortOrder]);
+  const visibleTrips = useVisibleTrips({
+    trips,
+    searchQuery,
+    countryFilter,
+    sortBy,
+    sortOrder,
+  });
 
   const content = (() => {
     if (isLoading) {
