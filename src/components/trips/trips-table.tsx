@@ -6,6 +6,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import Link from "next/link";
 import { Trip } from "@/types/trip";
 
 type TripsTableProps = {
@@ -73,9 +74,12 @@ export default function TripsTable({ trips }: TripsTableProps) {
                 </TableCell>
 
                 <TableCell className="py-4 pr-5 text-right text-sm font-medium">
-                  <button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-5 py-2.5 text-xs font-semibold shadow-sm transition-colors">
+                  <Link
+                    href={`/trips/${trip.id}`}
+                    className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-5 py-2.5 text-xs font-semibold shadow-sm transition-colors"
+                  >
                     Learn more
-                  </button>
+                  </Link>
                 </TableCell>
               </TableRow>
             ))}

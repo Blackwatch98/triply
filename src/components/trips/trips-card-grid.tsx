@@ -9,6 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Star } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 type TripsCardGridProps = {
@@ -84,9 +85,12 @@ export default function TripsCardGrid({ trips }: TripsCardGridProps) {
                 </CardHeader>
 
                 <CardContent className="mt-5 flex w-full flex-col items-center gap-4 p-0">
-                  <button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-5 py-2.5 text-xs font-semibold shadow-sm transition-colors">
+                  <Link
+                    href={`/trips/${trip.id}`}
+                    className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-5 py-2.5 text-xs font-semibold shadow-sm transition-colors"
+                  >
                     Learn more
-                  </button>
+                  </Link>
 
                   <div className="flex w-full items-center justify-between rounded-lg bg-slate-950/85 px-4 py-4 text-xs font-semibold shadow-sm backdrop-blur-sm">
                     <span>Emissions offset:</span>
@@ -96,7 +100,7 @@ export default function TripsCardGrid({ trips }: TripsCardGridProps) {
               </div>
             </div>
 
-            <div className="relative z-20 mx-6 -mt-15 flex items-center justify-between rounded-t-xl bg-white px-4 py-3 text-sm font-semibold text-foreground">
+            <div className="text-foreground relative z-20 mx-6 -mt-15 flex items-center justify-between rounded-t-xl bg-white px-4 py-3 text-sm font-semibold">
               <span>Trip rating</span>
 
               <span className="flex items-center gap-1">
