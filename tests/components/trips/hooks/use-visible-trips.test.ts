@@ -1,6 +1,6 @@
 import { renderHook } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
-import { useVisibleTrips } from "@/components/trips/hooks/use-visible-trips";
+import { useVisibleTrips } from "@/hooks/use-visible-trips";
 import { Trip } from "@/types/trip";
 
 const mockTrips: Trip[] = [

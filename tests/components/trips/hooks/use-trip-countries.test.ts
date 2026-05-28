@@ -1,6 +1,6 @@
 import { renderHook } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
-import { useTripCountries } from "@/components/trips/hooks/use-trip-countries";
+import { useTripCountries } from "@/hooks/use-trip-countries";
 import { Trip } from "@/types/trip";
 
 const mockTrips: Trip[] = [

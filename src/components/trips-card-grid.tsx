@@ -1,8 +1,8 @@
 "use client";
 
 import { Trip } from "@/types/trip";
-import TripCard from "@/components/trips/trip-card";
-import { useVisibleTripsCount } from "@/components/trips/hooks/use-visible-trips-count";
+import TripCard from "@/components/trip-card";
+import { useVisibleTripsCount } from "@/hooks/use-visible-trips-count";
 
 type TripsCardGridProps = {
   trips: Trip[];

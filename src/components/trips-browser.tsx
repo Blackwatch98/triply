@@ -1,16 +1,16 @@
 "use client";
 
-import TripsTable from "@/components/trips/trips-table";
-import TripsHeader from "@/components/trips/trips-header";
-import TripsToolbar from "@/components/trips/trips-toolbar";
-import TripsCardGrid from "@/components/trips/trips-card-grid";
+import TripsTable from "@/components/trips-table";
+import TripsHeader from "@/components/trips-header";
+import TripsToolbar from "@/components/trips-toolbar";
+import TripsCardGrid from "@/components/trips-card-grid";
 import { TripsViewMode } from "@/types/trips-view-mode";
 import { TripsSortBy, TripsSortOrder } from "@/types/trip-sort-by";
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { tripsQueryOptions } from "@/lib/queries/trips";
-import { useTripCountries } from "@/components/trips/hooks/use-trip-countries";
-import { useVisibleTrips } from "@/components/trips/hooks/use-visible-trips";
+import { useTripCountries } from "@/hooks/use-trip-countries";
+import { useVisibleTrips } from "@/hooks/use-visible-trips";
 
 export default function TripsBrowser() {
   const [viewMode, setViewMode] = useState<TripsViewMode>("table");
